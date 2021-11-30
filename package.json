@@ -1,0 +1,19 @@
+{
+  "name": "pnpm-monorepo-demo",
+  "version": "1.0.0",
+  "description": "A monorepo demo with pnpm",
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadCcc/pnpm-monorepo-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadCcc/pnpm-monorepo-demo/issues"
+  },
+  "homepage": "https://github.com/MadCcc/pnpm-monorepo-demo#readme"
+}
