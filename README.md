@@ -4,7 +4,7 @@ A simple monorepo demo supported by pnpm
 
 ## Packages
 
-See structures in [pnpm-workspace/yaml]('https://github.com/MadCcc/pnpm-monorepo-demo/blob/master/pnpm-workspace.yaml')
+See structures in [`pnpm-workspace/yaml`](https://github.com/MadCcc/pnpm-monorepo-demo/blob/master/pnpm-workspace.yaml)
 
 ## Demo
 
