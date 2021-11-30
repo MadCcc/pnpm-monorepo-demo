@@ -6,6 +6,12 @@ A simple monorepo demo supported by pnpm
 
 See structures in [`pnpm-workspace.yaml`](https://github.com/MadCcc/pnpm-monorepo-demo/blob/master/pnpm-workspace.yaml)
 
+## 解决的问题
+
+1. **跨项目编译问题**。一般来说一个项目只允许编译自己文件夹下的文件，但是在 monorepo 条件下会有很多"外部"包。有些 cli（比如项目中使用到的 nextjs）会提供类似的配置，如果没有的话可以通过 webpack 等的配置将 monorepo 内的包 include 进去
+2. **集体发布时的编译优化**（未完成）。由于依赖提升的存在，我们应该很容易可以将一些公用的依赖提前编译好，防止重复编译占用资源和时间。
+3. **配置提升**（未完成）。将比如 eslintrc/tsconfig 等配置文件提升，让各个 package 主动 extend 这些配置，实现配置的统一，有利于约束代码风格，也避免了重复配置这些文件。
+
 ## Demo
 
 ```bash
