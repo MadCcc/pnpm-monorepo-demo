@@ -17,13 +17,7 @@ importers:
       '@types/react-dom': 17.0.11
       typescript: 4.5.2
 
-  components/clock:
-    specifiers:
-      moment: ^2.29.1
-    dependencies:
-      moment: 2.29.1
-
-  packages/official-website:
+  apps/next-app:
     specifiers:
       '@demo/clock': workspace:*
       '@types/node': 16.11.11
@@ -45,6 +39,12 @@ importers:
       eslint: 7.32.0
       eslint-config-next: 12.0.4_97474a4dbadaeb5c2c29b7d438fbde20
       typescript: 4.5.2
+
+  components/clock:
+    specifiers:
+      moment: ^2.29.1
+    dependencies:
+      moment: 2.29.1
 
 packages:
 
@@ -91,7 +91,7 @@ packages:
     resolution: {integrity: sha1-/RfRa/34eObdAtGXU6OfqKjZyEo=}
     engines: {node: '>=6.9.0'}
     dependencies:
-      regenerator-runtime: 0.13.4
+      regenerator-runtime: 0.13.9
     dev: false
 
   /@babel/runtime/7.16.3:
@@ -2458,7 +2458,6 @@ packages:
 
   /regenerator-runtime/0.13.9:
     resolution: {integrity: sha1-iSV0Kpj/2QgUmI11Zq0wyjsmO1I=}
-    dev: true
 
   /regexp.prototype.flags/1.3.1:
     resolution: {integrity: sha1-fvNSro0VnnWMDq3Kb4/LTu8HviY=}
