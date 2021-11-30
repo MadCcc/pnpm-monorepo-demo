@@ -13,4 +13,4 @@ See structures in [`pnpm-workspace.yaml`](https://github.com/MadCcc/pnpm-monorep
 pnpm run dev:next-app
 ```
 
-And you can see a simple page with a clock provided by `@demo/clock`
+And you can see a simple page with a clock provided by [`@demo/clock`](https://github.com/MadCcc/pnpm-monorepo-demo/tree/master/components/clock)
