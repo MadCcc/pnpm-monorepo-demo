@@ -4,7 +4,10 @@
   "description": "A monorepo demo with pnpm",
   "main": "index.js",
   "scripts": {
-    "test": "pnpm run test"
+    "test": "pnpm run test",
+    "dev:next-app": "pnpm dev --filter \"@demo/next-app\"",
+    "build:next-app": "pnpm build --filter \"@demo/next-app\"",
+    "start:next-app": "pnpm start --filter \"@demo/next-app\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/MadCcc/pnpm-monorepo-demo/issues"
   },
-  "homepage": "https://github.com/MadCcc/pnpm-monorepo-demo#readme"
+  "homepage": "https://github.com/MadCcc/pnpm-monorepo-demo#readme",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "typescript": "4.5.2"
+  }
 }
