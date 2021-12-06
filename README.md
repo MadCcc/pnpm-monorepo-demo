@@ -36,9 +36,9 @@ And you can see a simple page with a clock provided by [`@demo/clock`](https://g
 
 [关于现代包管理器的深度思考——为什么现在我更推荐 pnpm 而不是 npm/yarn?](https://zhuanlan.zhihu.com/p/352437367)
 
-上一张整篇文章里的图，pnpm 的优越性从这张图就可以得知。
+下面是 pnpm 自己跑的 benchmark
 
-![img.png](https://pic1.zhimg.com/v2-fc3618104fd0e1b6b613aba7401dcb6c_r.jpg)
+![image](https://user-images.githubusercontent.com/27722486/144781325-f8b721d2-7897-4baa-ac4c-e63353face30.png)
 
 另外 lerna + yarn 的 monorepo 方案学习成本比较高，不如 pnpm 来的方便
 
