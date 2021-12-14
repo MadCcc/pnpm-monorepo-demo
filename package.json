@@ -4,6 +4,7 @@
   "description": "A monorepo demo with pnpm",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "test": "pnpm run test",
     "dev:next-app": "pnpm dev --filter \"@demo/next-app\"",
     "build:next-app": "pnpm build --filter \"@demo/next-app\"",
