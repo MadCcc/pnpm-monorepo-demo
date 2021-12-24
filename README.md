@@ -43,6 +43,3 @@ And you can see a simple page with a clock provided by [`@demo/clock`](https://g
 另外 lerna + yarn 的 monorepo 方案学习成本比较高，不如 pnpm 来的方便
 
 [为什么使用pnpm可以光速建立好用的monorepo（比yarn/lerna效率高）](https://blog.csdn.net/qq_21567385/article/details/118590143)
-
-
-test text
